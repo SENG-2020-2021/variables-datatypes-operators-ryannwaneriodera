@@ -25,15 +25,7 @@ class Main {
    daysNotPaid=defaultedDays-daysPaidFor;
    System.out.println("the days not paid for are:"+daysNotPaid);
 
-   // calculate and print the days the debtor paid for
   
-  // calculate and print the amount whose day was not captured because the amount was incomplete
-
-   // calculate and print amount the debtor is left to pay
-
-   // calculate and print days the debtor has not payed for
-
-   //kindly remove the statement below when you are done with the assignment
     
   }
 }
