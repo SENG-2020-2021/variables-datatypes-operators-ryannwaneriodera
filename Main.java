@@ -13,19 +13,14 @@ class Main {
    System.out.println("the amount that doesnt cover a day is:"+amountNotInDay);
    
    if(amountNotInDay>0){
-   
    amountLeftToPay=((defaultedDays-daysPaidFor)*amountPerDay)+(amountPerDay-amountNotInDay);
    System.out.println("the amount left to pay is:"+amountLeftToPay);
    }
-   
    else{
 	   amountLeftToPay=((defaultedDays-daysPaidFor)*amountPerDay);
    System.out.println("the amount left to pay is:"+amountLeftToPay);
    }
    daysNotPaid=defaultedDays-daysPaidFor;
    System.out.println("the days not paid for are:"+daysNotPaid);
-
-  
-    
   }
 }
