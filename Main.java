@@ -1,7 +1,7 @@
 class Main {
   public static void main(String[] args) {
-   int defaultedDays=14,amountPerDay=500,amountToPay;
-   int daysPaidFor,amountLeftToPay,daysNotPaid,amountPayed=3500,amountNotInDay;
+   int defaultedDays=10,amountPerDay=1000,amountToPay;
+   int daysPaidFor,amountLeftToPay,daysNotPaid,amountPayed=3000,amountNotInDay;
    
    amountToPay=defaultedDays*amountPerDay;
    System.out.println("the amount to pay is:"+amountToPay);
